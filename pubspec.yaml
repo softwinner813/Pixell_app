@@ -1,0 +1,287 @@
+name: pixell_app
+description: A new Flutter application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.3+5
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  firebase_messaging: ^6.0.9
+  device_info: ^0.4.1+4
+  flutter_local_notifications: ^1.1.3
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+  shared_preferences: '>=0.5.7+3 <2.0.0'
+  fluttertoast: ^4.0.0
+  image_picker: ^0.6.7
+  progress_dialog: ^1.2.1
+  connectivity: '>=0.4.8+6 <2.0.0'
+  http: 0.12.1
+  flutter_range_slider: ^1.4.0
+  flutter_facebook_login: ^3.0.0
+  webview_flutter: ^0.3.22+1
+  carousel_slider: ^1.4.1
+  auto_size_text: ^2.1.0
+  geolocator: ^5.2.0
+  new_geolocation: ^1.0.0
+  cached_network_image: ^2.0.0
+  permission_handler: ^3.0.0
+  flutter_device_locale: ^0.4.0
+  stripe_payment: ^1.0.7
+  flutter_image_compress: ^0.6.5+1
+  gallery_saver: ^2.0.1
+  flutter_breadcrumb: ^0.1.2
+  smooth_page_indicator: ^0.1.5
+  sign_in_with_apple: ^2.5.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.7.4"
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "graphics/pixell_app_icon.png"
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  assets:
+    - top-logo.png
+    - full_bg.png
+    - surface_top_signup.png
+    - arrow-bottom.png
+    - arrow-left.png
+    - surface_bottom_signup.png
+    - step1_select.png
+    - step2_select.png
+    - step3_select.png
+    - step1.png
+    - step2.png
+    - step3.png
+    - surface_bottom_selected.png
+    - icon-visibility.png
+    - user_default.png
+    - user_default_rectangle.png
+    - img-mailbox.png
+    - img-changed.png
+    - surface_bottom_tab.png
+    - icon-login.png
+    - icon-login-1.png
+    - icon-search.png
+    - icon-search-1.png
+    - icon-profile.png
+    - icon-profile-1.png
+    - icon-home.png
+    - icon-home-1.png
+    - icon-requests.png
+    - icon-requests-1.png
+    - icon-balance.png
+    - icon-balance-1.png
+    - icon-checkmark.png
+    - surface_bottom_tab_curve.png
+    - add_btn.png
+    - close.png
+    - check.png
+    - pixell_app_icon.png
+    - icon-facebook.png
+    - adult_age_ok.png
+    - adult_age_cancel.png
+    - adult_pending.png
+    - upload.png
+    - powered_by_stripe.png
+    - profile_body.png
+    - profile_ethnicity.png
+    - profile_gender.png
+    - profile_height.png
+    - profile_icn.png
+    - profile_weight.png
+    - flag_AE.png
+    - flag_AF.png
+    - flag_AM.png
+    - flag_AR.png
+    - flag_AT.png
+    - flag_AU.png
+    - flag_BD.png
+    - flag_BE.png
+    - flag_BF.png
+    - flag_BG.png
+    - flag_BO.png
+    - flag_BR.png
+    - flag_BY.png
+    - flag_CA.png
+    - flag_CD.png
+    - flag_CH.png
+    - flag_CL.png
+    - flag_CM.png
+    - flag_CN.png
+    - flag_CO.png
+    - flag_CR.png
+    - flag_CU.png
+    - flag_CZ.png
+    - flag_DE.png
+    - flag_DK.png
+    - flag_DO.png
+    - flag_DZ.png
+    - flag_EC.png
+    - flag_EE.png
+    - flag_EG.png
+    - flag_ES.png
+    - flag_FI.png
+    - flag_FR.png
+    - flag_GB.png
+    - flag_GH.png
+    - flag_GR.png
+    - flag_GT.png
+    - flag_HN.png
+    - flag_HU.png
+    - flag_ID.png
+    - flag_IE.png
+    - flag_IL.png
+    - flag_IN.png
+    - flag_IS.png
+    - flag_IT.png
+    - flag_JM.png
+    - flag_JP.png
+    - flag_KE.png
+    - flag_KH.png
+    - flag_KW.png
+    - flag_LA.png
+    - flag_LB.png
+    - flag_LK.png
+    - flag_LU.png
+    - flag_LV.png
+    - flag_MA.png
+    - flag_MC.png
+    - flag_MG.png
+    - flag_MN.png
+    - flag_MT.png
+    - flag_MX.png
+    - flag_MY.png
+    - flag_MZ.png
+    - flag_NG.png
+    - flag_NI.png
+    - flag_NL.png
+    - flag_NO.png
+    - flag_NP.png
+    - flag_PA.png
+    - flag_PE.png
+    - flag_PH.png
+    - flag_PL.png
+    - flag_PY.png
+    - flag_QA.png
+    - flag_RO.png
+    - flag_RU.png
+    - flag_SA.png
+    - flag_SE.png
+    - flag_SG.png
+    - flag_SI.png
+    - flag_SL.png
+    - flag_SN.png
+    - flag_SO.png
+    - flag_SV.png
+    - flag_TH.png
+    - flag_TN.png
+    - flag_TR.png
+    - flag_TT.png
+    - flag_TW.png
+    - flag_TZ.png
+    - flag_UA.png
+    - flag_US.png
+    - flag_UY.png
+    - flag_UZ.png
+    - flag_VE.png
+    - flag_VN.png
+    - flag_ZA.png
+    - flag_ZM.png
+    - icon-pixell-point-white.png
+    - icon-info-white.png
+    - request_pending_status.png
+    - btn-enter-card-info-deselect.png
+    - btn-enter-card-info-selected.png
+    - visa.png
+    - jcb.png
+    - verve.png
+    - discover.png
+    - american_express.png
+    - dinners_club.png
+    - mastercard.png
+    - btn-use-previous-card-deselect.png
+    - btn-use-previous-card-selected.png
+    - info_large.png
+    - alert_be_seller.png
+    - icon-visa.png
+    - icon-amex.png
+    - icon-diners.png
+    - icon-discover.png
+    - icon-master-card.png
+    - emplty_box.png
+    - confirm.png
+    - loader.gif
+    - walkthrough-arrow.png
+    - walkthrough-first-0.png
+    - walkthrough-first-1.png
+    - walkthrough-first-2.png
+    - walkthrough-first-3.png
+    - walkthrough-first-4.png
+    - walkthrough-login-0.png
+    - walkthrough-login-1.png
+    - walkthrough-login-2.png
+    - walkthrough-login-3.png
+    - walkthrough-login-4.png
+    - walkthrough-login-5.png
+    - walkthrough-seller-0.png
+    - walkthrough-seller-1.png
+    - walkthrough-seller-2.png
+    - walkthrough-seller-3.png
+    - walkthrough-seller-4.png
+
+    - lang/en.json
+    - lang/ja.json
+    - lang/es.json
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Aqua Grotesque
+      fonts:
+        - asset: fonts/aqua.ttf
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

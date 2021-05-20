@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "548578507375",
+    "firebase_url": "https://cedar-heaven-236209.firebaseio.com",
+    "project_id": "cedar-heaven-236209",
+    "storage_bucket": "cedar-heaven-236209.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548578507375:android:492168bca122cab6fa6b9a",
+        "android_client_info": {
+          "package_name": "com.pixell.me"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "548578507375-h78h9q2rd10c41q7ivejh9o951gv00qj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjjdtSOyWqA4pa9xZxUwA0G4F8Y1_mWh4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "548578507375-h78h9q2rd10c41q7ivejh9o951gv00qj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

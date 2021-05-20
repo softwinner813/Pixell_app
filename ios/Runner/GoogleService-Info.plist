@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>548578507375-alp934npaml635evo2c64nn7s23cvgv8.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.548578507375-alp934npaml635evo2c64nn7s23cvgv8</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCYJoiwsKhJjaT_91R9RTlJHT3R3Ilurx4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>548578507375</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>me.pixell</string>
+	<key>PROJECT_ID</key>
+	<string>cedar-heaven-236209</string>
+	<key>STORAGE_BUCKET</key>
+	<string>cedar-heaven-236209.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:548578507375:ios:12d315ea7ffbcf84fa6b9a</string>
+	<key>DATABASE_URL</key>
+	<string>https://cedar-heaven-236209.firebaseio.com</string>
+</dict>
+</plist>
